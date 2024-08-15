@@ -1,0 +1,14 @@
+PUT http://localhost:3001/api/states/CA
+Content-Type: application/json
+
+{"id": "CA",
+        "name": "California",
+        "legal": "2",
+        "data": [{
+            "number": "1",
+            "name": "Adrian Ortiz",
+            "sd": "2/26/21",
+            "race": "Latino",
+            "aac": "19"
+        }]
+    }
