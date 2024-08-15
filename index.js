@@ -255,7 +255,7 @@ let states = [
 ]
 
 //route 1: global route
-app.get('/',(request, response)=>{
+app.get('/info',(request, response)=>{
     response.send(
         `<h1>num of states: ${states.length} </h1>`
     )
