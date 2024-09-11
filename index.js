@@ -159,7 +159,7 @@ let states = [
             number: "1",
             name: "Adrian Ortiz",
             sd: "2/26/21",
-            race: "Latino",
+            race: "Latinx",
             aac: "19"
         }]
     }, {id: "AZ",
@@ -215,7 +215,7 @@ let states = [
             number: "1",
             name: "Christian Cruz",
             sd: "2019",
-            race: "Latino",
+            race: "Latinx",
             aac: "19"
         },{
             number: "2",
