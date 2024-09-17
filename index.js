@@ -153,7 +153,7 @@ let states = [
     }, {id: "CA",
         name: "California",
         legal: "2",
-        legalData: "A gubernatorial moratorium on the death penalty has been in force since 2019. Governor Gavin Newsom considered his State's death penalty system as discriminatory against people of color and the poor, an undue fiscal burden on taxpayer dollars, and an \"absolute, irreversible and irreparable\" penalty that cannot be undone in cases of human error. Note that while a gubernatorial moratorium puts the execution of the death penalty on hold, courts can still issue the death penalty under special circumstances outlined in state law. In other words, the moratorium simply means that the death penalty will not be carried while the moratorium is in place.",
+        legalData: "A gubernatorial moratorium on the death penalty has been in force since 2019. Governor Gavin Newsom considered his State's death penalty system as discriminatory against people of color and the poor, an undue fiscal burden on taxpayer dollars, and an \"absolute, irreversible and irreparable\" penalty that cannot be undone in cases of human error. Note that while a gubernatorial moratorium puts the execution of the death penalty on hold, courts can still issue the death penalty under special circumstances outlined in state law. In other words, the moratorium simply means that the death penalty will not be carried out while the moratorium is in place.",
         legalSource: "https://deathpenaltyinfo.org/news/california-governor-announces-moratorium-on-executions",
         data: [{
             number: "1",
@@ -165,7 +165,7 @@ let states = [
     }, {id: "AZ",
         name: "Arizona",
         legal: "2",
-        legalData:"A gubernatorial moratorium on the death penalty has been in force since 2023. Following botched executions in 2022, Governor Katie Hobbs ordered a pause on executions pending a review of the State's execution process. She based her decision on the need to ensure transparency and accountability in the State's death penalty system. Note that while a gubernatorial moratorium puts the execution of the death penalty on hold, courts can still issue the death penalty under special circumstances outlined in state law. In other words, the moratorium simply means that the death penalty will not be carried while the moratorium is in place.",
+        legalData:"A gubernatorial moratorium on the death penalty has been in force since 2023. Following botched executions in 2022, Governor Katie Hobbs ordered a pause on executions pending a review of the State's execution process. She based her decision on the need to ensure transparency and accountability in the State's death penalty system. Note that while a gubernatorial moratorium puts the execution of the death penalty on hold, courts can still issue the death penalty under special circumstances outlined in state law. In other words, the moratorium simply means that the death penalty will not be carried out while the moratorium is in place.",
         legalSource:"https://deathpenaltyinfo.org/news/botched-executions-prompt-new-arizona-governor-and-attorney-general-to-halt-executions-pending-independent-review-of-states-execution-process",
         data: [{
             number: "1",
