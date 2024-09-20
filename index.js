@@ -4,6 +4,7 @@ const cors = require('cors')
 app.use(cors())
 
 app.use(express.json())
+app.use(express.static('dist'))
 
 //properties are strings
 let states = [
@@ -254,7 +255,7 @@ let states = [
 ]
 
 //route 1: global route
-app.get('/',(request, response)=>{
+app.get('/info',(request, response)=>{
     response.send(
         `<h1>num of states: ${states.length} </h1>`
     )
@@ -291,7 +292,7 @@ app.put('/api/states/:id',(request,response)=>{
     }
 })
 
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 app.listen(PORT,() => {
     console.log(`Server is running on port ${PORT}`)
 })
