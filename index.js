@@ -125,6 +125,8 @@ let states = [
     }, {id: "KY",
         name: "Kentucky",
         legal: "1",
+        legalData: "Despite a 2010 ruling by a circuit court judge deeming the State's execution protocol unconstitutional, the death penalty is still legal and is actively being issued.",
+        legalSource: "https://deathpenaltyinfo.org/kentucky-trial-court-again-strikes-down-states-execution-protocol",
         data: null
     }, {id: "MO",
         name: "Missouri",
