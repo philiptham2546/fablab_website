@@ -181,7 +181,13 @@ let states = [
     }, {id: "TX",
         name: "Texas",
         legal: "1",
-        data: null
+        data: [{
+            number: "1",
+            name: "Dillion Compton",
+            sd: "XX/XX/18",
+            race: "Black",
+            aac: "21"
+        }]
     }, {id: "OK",
         name: "Oklahoma",
         legal: "1",
