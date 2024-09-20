@@ -4,7 +4,6 @@ const cors = require('cors')
 app.use(cors())
 
 app.use(express.json())
-app.use(express.static('dist'))
 
 //properties are strings
 let states = [
@@ -153,24 +152,24 @@ let states = [
     }, {id: "CA",
         name: "California",
         legal: "2",
-        legalData: "A gubernatorial moratorium on the death penalty has been in force since 2019. Governor Gavin Newsom considered his State's death penalty system as discriminatory against people of color and the poor, an undue fiscal burden on taxpayer dollars, and an \"absolute, irreversible and irreparable\" penalty that cannot be undone in cases of human error. Note that while a gubernatorial moratorium puts the execution of the death penalty on hold, courts can still issue the death penalty under special circumstances outlined in state law. In other words, the moratorium simply means that the death penalty will not be carried out while the moratorium is in place.",
+        legalData: "A gubernatorial moratorium on the death penalty has been in force since 2019. Governor Gavin Newsom considered his State's death penalty system as discriminatory against people of color and the poor, an undue fiscal burden on taxpayer dollars, and an \"absolute, irreversible and irreparable\" penalty that cannot be undone in cases of human error. Note that while a gubernatorial moratorium puts the execution of the death penalty on hold, courts can still issue the death penalty under special circumstances outlined in state law. In other words, the moratorium simply means that the death penalty will not be carried while the moratorium is in place.",
         legalSource: "https://deathpenaltyinfo.org/news/california-governor-announces-moratorium-on-executions",
         data: [{
             number: "1",
             name: "Adrian Ortiz",
-            sd: "2/26/21",
+            sd: "02/26/21",
             race: "Latinx",
             aac: "19"
         }]
     }, {id: "AZ",
         name: "Arizona",
         legal: "2",
-        legalData:"A gubernatorial moratorium on the death penalty has been in force since 2023. Following botched executions in 2022, Governor Katie Hobbs ordered a pause on executions pending a review of the State's execution process. She based her decision on the need to ensure transparency and accountability in the State's death penalty system. Note that while a gubernatorial moratorium puts the execution of the death penalty on hold, courts can still issue the death penalty under special circumstances outlined in state law. In other words, the moratorium simply means that the death penalty will not be carried out while the moratorium is in place.",
+        legalData:"A gubernatorial moratorium on the death penalty has been in force since 2023. Following botched executions in 2022, Governor Katie Hobbs ordered a pause on executions pending a review of the State's execution process. She based her decision on the need to ensure transparency and accountability in the State's death penalty system. Note that while a gubernatorial moratorium puts the execution of the death penalty on hold, courts can still issue the death penalty under special circumstances outlined in state law. In other words, the moratorium simply means that the death penalty will not be carried while the moratorium is in place.",
         legalSource:"https://deathpenaltyinfo.org/news/botched-executions-prompt-new-arizona-governor-and-attorney-general-to-halt-executions-pending-independent-review-of-states-execution-process",
         data: [{
             number: "1",
             name: "Bryan Patrick Miller",
-            sd: "6/7/23",
+            sd: "06/07/23",
             race: "White",
             aac: "~15"
         }]
@@ -214,13 +213,13 @@ let states = [
         data: [{
             number: "1",
             name: "Christian Cruz",
-            sd: "2019",
+            sd: "XX/XX/19",
             race: "Latinx",
             aac: "19"
         },{
             number: "2",
             name:"Benjamin Smiley",
-            sd: "2018",
+            sd: "XX/XX/18",
             race: "Black",
             aac: "20"
         }]
@@ -234,7 +233,7 @@ let states = [
         data: [{
             number: "1",
             name: "Jerome Jenkins Jr.",
-            sd: "2019",
+            sd: "XX/XX/19",
             race: "Black",
             aac: "20"
         }]
@@ -255,7 +254,7 @@ let states = [
 ]
 
 //route 1: global route
-app.get('/info',(request, response)=>{
+app.get('/',(request, response)=>{
     response.send(
         `<h1>num of states: ${states.length} </h1>`
     )
@@ -292,7 +291,7 @@ app.put('/api/states/:id',(request,response)=>{
     }
 })
 
-const PORT = process.env.PORT || 3001
+const PORT = 3001
 app.listen(PORT,() => {
     console.log(`Server is running on port ${PORT}`)
 })
