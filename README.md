@@ -9,5 +9,5 @@ This website is hosted on render, and was built using React, Node.js and Express
 Go to <a href="https://fablab-website.onrender.com/">https://fablab-website.onrender.com/</a>.
 
 <h2>Backend meta data summary</h2>
-Link to backend info: https://fablab-website.onrender.com/info
-All states information: https://fablab-website.onrender.com/api/states
+Route to backend info: https://fablab-website.onrender.com/info
+Route to all states information: https://fablab-website.onrender.com/api/states
