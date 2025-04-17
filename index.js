@@ -75,7 +75,7 @@ let states = [
         legalSource:"https://www.americanbar.org/groups/committees/death_penalty_representation/project_press/2015/summer/pennsylvania-governor-declares-moratorium-on-death-penalty/", 
         data: null
     }, {id: "NY",
-        name: "New York",
+        name: "New York, this is a test",
         legal: "0",
         data: null
     }, {id: "VT",
