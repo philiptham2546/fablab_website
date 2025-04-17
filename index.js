@@ -163,6 +163,12 @@ let states = [
             sd: "02/26/21",
             race: "Latinx",
             aac: "19"
+        }, {
+            number: "2",
+            name: "John Smith",
+            sd: "02/26/21",
+            race: "White",
+            aac: "10"
         }]
     }, {id: "AZ",
         name: "Arizona",
